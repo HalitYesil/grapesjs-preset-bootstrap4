@@ -13,7 +13,7 @@ import components from './components';
 import panels from './panels';
 import styles from './styles';
 
-export default grapesjs.plugins.add('gjs-preset-webpage', (editor, opts = {}) => {
+export default grapesjs.plugins.add('gjs-preset-bootstrap4', (editor, opts = {}) => {
   let config = opts;
 
   let defaults = {

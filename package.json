@@ -1,27 +1,29 @@
 {
-  "name": "grapesjs-preset-webpage",
+  "name": "grapesjs-preset-bootstrap4",
   "version": "0.1.10",
-  "description": "GrapesJS Plugin Webpage Preset",
-  "main": "dist/grapesjs-preset-webpage.min.js",
+  "description": "GrapesJS Plugin Bootstrap4 Preset",
+  "main": "dist/grapesjs-preset-bootstrap4.min.js",
   "scripts": {
     "lint": "eslint src",
     "v:patch": "npm version --no-git-tag-version patch",
     "build": "npm run v:patch && webpack --env.production && npm run build:css",
     "start": "webpack-dev-server --open --progress --colors & npm run build:css -- -w",
-    "build:css": "node-sass src/style/main.scss dist/grapesjs-preset-webpage.min.css --output-style compressed"
+    "build:css": "node-sass src/style/main.scss dist/grapesjs-preset-bootstrap4.min.css --output-style compressed"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/artf/grapesjs-preset-webpage.git"
+    "url": "https://github.com/HalitYesil/grapesjs-preset-bootstrap4.git"
   },
   "keywords": [
     "grapesjs",
     "plugin",
     "webpage",
     "preset",
+    "bootstrap",
+    "bootstrap4",
     "wysiwyg"
   ],
-  "author": "Artur Arseniev",
+  "author": "Halit YESIL",
   "license": "BSD-3-Clause",
   "babel": {
     "presets": [

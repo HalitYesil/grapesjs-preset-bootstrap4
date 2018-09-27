@@ -4,7 +4,7 @@ export default (editor, config) => {
 
   toAdd('link-block') && bm.add('link-block', {
 	  category		: 'Basic',
-	  label			: 'Link Blocks',
+	  label			: 'Link Block',
 	  attributes	: { class: 'fa fa-link' },
 	  content		: {
 		  type			:'link',
